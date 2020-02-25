@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Main.qml</file>
+        <file>MainForm.ui.qml</file>
+        <file>StatusBar.qml</file>
+        <file>Condition.qml</file>
+    </qresource>
+</RCC>

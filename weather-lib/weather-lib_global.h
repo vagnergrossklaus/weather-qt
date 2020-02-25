@@ -1,0 +1,15 @@
+#ifndef WEATHERLIB_GLOBAL_H
+#define WEATHERLIB_GLOBAL_H
+
+#include <QtCore/qglobal.h>
+
+#if defined(WEATHERLIB_LIBRARY)
+#  define WEATHERLIBSHARED_EXPORT Q_DECL_EXPORT
+#else
+#  define WEATHERLIBSHARED_EXPORT Q_DECL_IMPORT
+#endif
+
+#define WEATHER_LIB_NAMESPACE_BEGIN namespace weather {
+#define WEATHER_LIB_NAMESPACE_END }
+
+#endif // WEATHERLIB_GLOBAL_H

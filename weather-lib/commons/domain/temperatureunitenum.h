@@ -1,0 +1,12 @@
+#ifndef TEMPERATUREUNITENUM_H
+#define TEMPERATUREUNITENUM_H
+
+#include "weather-lib_global.h"
+
+WEATHER_LIB_NAMESPACE_BEGIN
+
+enum class TemperatureUnitEnum { NONE, CELSIUS, FAHRENHEIT, KELVIN };
+
+WEATHER_LIB_NAMESPACE_END
+
+#endif // TEMPERATUREUNITENUM_H
